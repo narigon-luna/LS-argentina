@@ -1,0 +1,78 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/inicio"
+    tools:context="com.curso.lenguasdeseñas.ui.portada.PortadaFragment">
+    <TextView
+        android:id="@+id/tvPortada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:text="INICIO"/>
+    <!--FCortesisa    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPortada"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:orientation="vertical"
+   android:padding="16dp"
+   android:gravity="center"
+   tools:context="com.curso.lenguasdeseñas.ui.portada.PortadaFragment">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lorem_ipsum"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"/>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lorem_ipsum"
+        android:textSize="18sp"
+        android:padding="8dp"/>
+
+</LinearLayout> -->
+
+
+    <!-- <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        tools:context="com.curso.lenguasdeseñas.ui.portada.PortadaFragment">
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lorem_ipsum" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lorem_ipsum" />
+    </FrameLayout> -->

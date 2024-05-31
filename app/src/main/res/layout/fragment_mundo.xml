@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.curso.lenguasdeseñas.ui.mundo.MundoFragment">
+   <EditText
+       android:id="@+id/etFilter"
+       android:singleLine="true"
+       android:maxLines="1"
+       android:imeOptions="actionDone"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Escriba la palabra buscada con minuscula"/>
+    <!--Datos Personales-->
+    <!--   <androidx.appcompat.widget.SearchView
+          android:id="@+id/searchView"
+          android:layout_width="400dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:iconifiedByDefault="false"
+          android:layout_height="wrap_content" />-->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerMundo"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</FrameLayout>

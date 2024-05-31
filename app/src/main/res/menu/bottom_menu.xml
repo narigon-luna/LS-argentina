@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dactilologicoFragment"
+        android:icon="@drawable/ic_dactilologico"
+        android:title="@string/dactilologico"/>
+    <item
+        android:id="@+id/genaralFragment"
+        android:title="@string/general"
+        android:icon="@drawable/ic_uno"/>
+    <item
+        android:id="@+id/vyPFragment"
+        android:icon="@drawable/ic_2"
+        android:title="@string/verbo"/>
+
+
+
+
+    <!--
+    <item
+        android:id="@+id/practicaFragment"
+        android:icon="@drawable/ic_practicar"
+        android:title="@string/practica"/>-->
+
+
+    <item
+        android:id="@+id/gramaticaFragment"
+        android:icon="@drawable/ic_3"
+        android:title="@string/gramatica"/>
+
+    <item
+        android:id="@+id/mundoFragment"
+        android:icon="@drawable/ic_mundo"
+        android:title="@string/mundo"/>
+
+</menu>

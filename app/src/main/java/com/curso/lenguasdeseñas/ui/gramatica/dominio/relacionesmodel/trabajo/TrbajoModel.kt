@@ -1,0 +1,30 @@
+package com.curso.lenguasdeseñas.ui.gramatica.dominio.relacionesmodel.trabajo
+
+enum class TrbajoModel {
+    Empresa,
+    Fabrica,
+    Jefe,
+    Oficina,
+    NegocioComercio,
+    Bar,
+    Dueño,
+    Supervisor,
+    Tesorero,
+    Cordinadora,
+    Instructora,
+    Secretarioa,
+    Empleadoa,
+    Jubiladoa,
+    Profesional,
+    Pensionadoa,
+    Trabajar,
+    Buscar,
+    Comunicar,
+    Preparar,
+    Despedie,
+    Suspender,
+    Renunciar,
+    Encontrar,
+    Cobrar,
+    Sueldo
+}

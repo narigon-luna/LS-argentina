@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/primary"
+    tools:context="com.curso.lenguasdeseñas.ui.gramatica.GramaticaFragment">
+
+    <TextView
+        android:id="@+id/tvGeneral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="25dp"
+        android:textColor="@color/accent"
+        android:text="PERSONAS Y RELACIONES"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvGramatica"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>

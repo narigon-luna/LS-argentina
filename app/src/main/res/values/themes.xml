@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LenguasDeSeñas" parent="Theme.Material3.DayNight.NoActionBar">
+       <item name="android:statusBarColor">@color/secondary</item>
+    </style>
+
+    <style name="Theme.LenguasDeSeñas" parent="Base.Theme.LenguasDeSeñas" />
+
+    <style name="Title">
+        <item name="android:textStyle">bold</item>
+        <!--   <item name="android:fontFamily">cursive</item> -->
+          <item name="android:textSize">30sp</item>
+          <item name="android:textColor">@color/black</item>
+      </style>
+
+      <style name="Borde">
+          <item name="android:width">5dp</item>
+          <item name="color">@color/accent</item>
+      </style>
+
+      <style name="Body" parent="Title">
+          <item name="android:textStyle">normal</item>
+          <item name="android:textSize">20sp</item>
+      </style>
+
+      <style name="BottomNavigationTitleActive" parent="Widget.MaterialComponents.BottomNavigationView">
+          <item name="android:textSize">10sp</item>
+          <item name="android:layout_marginTop">1dp</item> <!-- Ajusta el margen superior según sea necesario -->
+        <item name="android:layout_marginRight">1dp</item>
+    </style>
+
+    <style name="BottomNavigationTitleInactive" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_marginTop">1dp</item> <!-- Ajusta el margen superior según sea necesario -->
+    </style>
+
+
+
+</resources>

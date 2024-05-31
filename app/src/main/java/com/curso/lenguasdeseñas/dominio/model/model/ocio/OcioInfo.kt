@@ -1,0 +1,38 @@
+package com.curso.lenguasdeseñas.dominio.model.model.ocio
+
+import com.curso.lenguasdeseas.R
+
+sealed class OcioInfo (val imgocio: Int, val amgviahes: Int, val nameocio: Int, val descripocio:Int){
+    data object Vacaciones : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.vacaciones, R.string.vaca)
+    data object Turismo : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.turismo, R.string.turi)
+    data object Cine : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.cine, R.string.cin)
+    data object Peliculas : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.peliculas, R.string.peli)
+    data object Musica : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.musica, R.string.mus)
+    data object Deportes : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.deportes, R.string.depo)
+    data object Fotografia : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.fotografia, R.string.foto)
+    data object Viajar : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.viajar, R.string.viaj)
+    data object Teatro : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.teatro, R.string.tea)
+    data object CampingCarpa : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.campingCarpa, R.string.camp)
+    data object Parque : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.parque, R.string.par)
+    data object Hotel : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.hotel, R.string.ho)
+    data object Montaña : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.montaña, R.string.mon)
+    data object Maar : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.maar, R.string.ma)
+    data object Rio : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.rio, R.string.ri)
+    data object Auto : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.auto, R.string.brum)
+    data object Avion : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.avion, R.string.avi)
+    data object Barco : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.barco, R.string.barc)
+    data object Bicicleta : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.bicicleta, R.string.bici)
+    data object Camion : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.camion, R.string.cami)
+    data object Helicoptero : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.helicoptero, R.string.heli)
+    data object Microomnibus : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.microomnibus, R.string.micro)
+    data object Colectivo : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.colectivo, R.string.cole)
+    data object Tren : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.tren, R.string.chucu)
+    data object Moto : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.moto, R.string.mot)
+    data object Subte : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.subte, R.string.sub)
+    data object Taxi : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.taxi, R.string.tax)
+    data object SemanaSanta : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.semanaSanta, R.string.ssan)
+    data object Navidad : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.navidad, R.string.ooo)
+    data object Fiesta : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.fiesta, R.string.fies)
+    data object FelizCumpleaños : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.felizCumpleaños, R.string.fcumpl)
+    data object Regalo : OcioInfo(R.drawable.detail_mujer, R.drawable.detail_mujer, R.string.regalo, R.string.regal)
+}

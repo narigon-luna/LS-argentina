@@ -1,0 +1,35 @@
+package com.curso.lenguasdeseñas.dominio.model.model.modeldias
+
+import com.curso.lenguasdeseas.R
+
+sealed class DiasInfo(val imgdias: Int, val namedias: Int, val descripciondias: Int) {
+     data object Lunes: DiasInfo(R.drawable.sonia, R.string.lunes, R.string.l)
+     data object Martes: DiasInfo(R.drawable.sonia, R.string.martes, R.string.ma)
+     data object Miercoles: DiasInfo(R.drawable.sonia, R.string.miercoles, R.string.mi)
+     data object Jueves: DiasInfo(R.drawable.sonia, R.string.jueves, R.string.j)
+     data object Viernes: DiasInfo(R.drawable.sonia, R.string.viernes, R.string.v)
+     data object Sabado: DiasInfo(R.drawable.sonia, R.string.sabado, R.string.s)
+     data object Domingo: DiasInfo(R.drawable.sonia, R.string.domingo, R.string.domi)
+     data object FinDeSemana: DiasInfo(R.drawable.sonia, R.string.findeseman, R.string.fds)
+     data object  Semana: DiasInfo(R.drawable.sonia, R.string.semana, R.string.se)
+     data object Meses: DiasInfo(R.drawable.sonia, R.string.meses, R.string.me)
+     data object Enero: DiasInfo(R.drawable.sonia, R.string.enero, R.string.en)
+     data object Febrero: DiasInfo(R.drawable.sonia, R.string.febrero, R.string.fe)
+     data object Marzo: DiasInfo(R.drawable.sonia, R.string.marzo, R.string.mar)
+     data object Abril: DiasInfo(R.drawable.sonia, R.string.abril, R.string.ab)
+     data object Mayo: DiasInfo(R.drawable.sonia, R.string.mayo, R.string.may)
+     data object Junio: DiasInfo(R.drawable.sonia, R.string.junio, R.string.juni)
+     data object Julio: DiasInfo(R.drawable.sonia, R.string.julio, R.string.juli)
+     data object Agosto: DiasInfo(R.drawable.sonia, R.string.agosto, R.string.agos)
+     data object Setiembre: DiasInfo(R.drawable.sonia, R.string.setiembre, R.string.set)
+     data object Octubre: DiasInfo(R.drawable.sonia, R.string.octubre, R.string.oct)
+     data object Noviembre: DiasInfo(R.drawable.sonia, R.string.noviembre, R.string.nov)
+     data object Diceimbre: DiasInfo(R.drawable.sonia, R.string.diciembre, R.string.dic)
+     data object Año : DiasInfo(R.drawable.sonia, R.string.año, R.string.añ)
+     data object Hora : DiasInfo(R.drawable.sonia, R.string.hora, R.string.hs)
+     data object Minutos : DiasInfo(R.drawable.sonia, R.string.minito, R.string.minut)
+     data object Segundos  : DiasInfo(R.drawable.sonia, R.string.segundos, R.string.segun)
+     data object Mediahora : DiasInfo(R.drawable.sonia, R.string.mediahora, R.string.mh)
+     data object Menos : DiasInfo(R.drawable.sonia, R.string.menos, R.string.meno)
+     data object Tardar : DiasInfo(R.drawable.sonia, R.string.tardar, R.string.tarda)
+}

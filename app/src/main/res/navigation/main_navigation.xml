@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/portadaFragment">
+
+
+    <fragment
+        android:id="@+id/genaralFragment"
+        android:name="com.curso.lenguasdeseñas.ui.general.GeneralFragment"
+        android:label="fragment_genaral"
+        tools:layout="@layout/fragment_genaral"/>
+        <!--    <action
+           android:id="@+id/action_generalFragment_to_generalDetailActivity"
+           app:destination="@id/generalDetailAvtivity" />-->
+
+   <fragment
+       android:id="@+id/dactilologicoFragment"
+       android:name="com.curso.lenguasdeseñas.ui.dactilologico.DactilologicoFragment"
+       android:label="fragment_dactilologico"
+       tools:layout="@layout/fragment_dactilologico"/>
+    <!-- <fragment
+        android:id="@+id/practicaFragment"
+        android:name="com.curso.lenguasdeseñas.ui.practica.PracticaFragment"
+        android:label="fragment_practivca"
+        tools:layout="@layout/fragment_practica" />
+
+     <activity
+       android:id="@+id/generalDetailAvtivity"
+       android:name="com.curso.lenguasdeseñas.ui.detail.GeneralDetailAvtivity"
+       android:label="activity_general_detail"
+       tools:layout="@layout/activity_general_detail" >
+
+     <argument
+             android:name="type"
+             app:argType="com.curso.lenguasdeseñas.dominio.model.model.generalmodel.GeneralModel" />
+    </activity>-->
+    <fragment
+        android:id="@+id/gramaticaFragment"
+        android:name="com.curso.lenguasdeseñas.ui.gramatica.GramaticaFragment"
+        android:label="fragment_gramatica"
+        tools:layout="@layout/fragment_gramatica" />
+    <fragment
+        android:id="@+id/mundoFragment"
+        android:name="com.curso.lenguasdeseñas.ui.mundo.MundoFragment"
+        android:label="fragment_mundo"
+        tools:layout="@layout/fragment_mundo" />
+    <fragment
+        android:id="@+id/vyPFragment"
+        android:name="com.curso.lenguasdeseñas.ui.verbosypron.VyPFragment"
+        android:label="fragment_v_y_p"
+        tools:layout="@layout/fragment_v_y_p" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.curso.lenguasdeseñas.ui.home.MainActivity"
+        android:label="MainActivity" />
+    <fragment
+        android:id="@+id/portadaFragment"
+        android:name="com.curso.lenguasdeseñas.ui.portada.PortadaFragment"
+        android:label="fragment_portada"
+        tools:layout="@layout/fragment_portada" />
+
+</navigation>
